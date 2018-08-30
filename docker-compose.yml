@@ -7,8 +7,8 @@ services:
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: 123
-    volumes:
-      - ./databases:/var/lib/mysql
+    #volumes:
+    #  - ./databases:/var/lib/mysql
 
   adminer:
     build: ./adminer
